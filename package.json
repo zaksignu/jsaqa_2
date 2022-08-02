@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint",
+    "prettier": "prettier"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/zaksignu/jsaqa_2/issues"
   },
-  "homepage": "https://github.com/zaksignu/jsaqa_2#readme"
+  "homepage": "https://github.com/zaksignu/jsaqa_2#readme",
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "eslint": "^8.21.0"
+  },
+  
+  "dependencies": {
+    "eslint": "^8.21.0"
+  }
 }
